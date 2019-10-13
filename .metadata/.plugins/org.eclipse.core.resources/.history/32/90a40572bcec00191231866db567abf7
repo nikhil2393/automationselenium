@@ -1,0 +1,19 @@
+package oops.abstraction;
+
+public class User {
+
+	public static void main(String[] args) {
+		
+		
+		MSWord msw = new Sprint3();
+		// TODO Auto-generated method stub
+				
+				msw.save();
+				msw.copy();
+				msw.delete();
+				msw.edit();
+				msw.print();
+				msw.insert();
+	}
+
+}

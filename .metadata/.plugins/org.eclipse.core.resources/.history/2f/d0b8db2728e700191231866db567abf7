@@ -1,0 +1,14 @@
+package PracticeSession;
+
+public class CondtionalPractice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method 
+		
+		int Nikhil = 20;
+		int friend = 80;
+
+		System.out.println(a>b);
+	}
+
+}

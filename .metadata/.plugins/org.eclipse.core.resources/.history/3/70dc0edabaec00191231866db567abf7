@@ -1,0 +1,13 @@
+package oops.abstraction;
+
+public abstract class Sprint2 extends Sprint1 {
+
+	public void delete(){
+		System.out.println("Delete Feature");
+	}
+	@Override
+	public void print() {
+		System.out.println("Print Feature");
+		// TODO Auto-generated method stub
+	}
+}
