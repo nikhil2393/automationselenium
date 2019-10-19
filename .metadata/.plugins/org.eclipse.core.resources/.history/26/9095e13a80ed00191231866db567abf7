@@ -1,0 +1,18 @@
+package exceptionHandling;
+
+public class UncheckException {
+
+	public static void main(String[] args) {
+		
+		//Example 1
+		System.out.println(10/1);
+		
+		//Example 2
+		String[] arr= new String[2];
+		arr[0]="Anand";
+		arr[1]="Nikhil";
+		arr[2]="zkjbskjc";
+		//System.out.println();
+	}
+
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+  <test name="chat Test">
+    <classes>
+      
+      <class name="basicTestNGAnotation.GroupChat"/>
+      <class name="basicTestNGAnotation.PersonalChat"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="status Test">
+    <classes>
+      <class name="basicTestNGAnotation.VideoStatus"/>
+      <class name="basicTestNGAnotation.ImageStatus"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name=" Base Test">
+    <classes>
+      <class name="basicTestNGAnotation.BaseClass"/>
+     
+     
+    </classes>
+  </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  
+  
